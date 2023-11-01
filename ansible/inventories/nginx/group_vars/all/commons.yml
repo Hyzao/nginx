@@ -11,3 +11,4 @@ home_ip: 79.95.197.59
 
 gitlab_ip: 51.15.220.38
 
+iptable_config_file: "inventories/nginx/templates/iptables.conf"
