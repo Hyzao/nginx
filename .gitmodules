@@ -1,0 +1,3 @@
+[submodule "ansible/roles/personnal-roles"]
+	path = ansible/roles/personnal-roles
+	url = git@github.com:Hyzao/personnal-ansible-roles.git

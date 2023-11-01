@@ -1,0 +1,5 @@
+.terraform
+.terraform.lock*
+*.tfstate*
+scaleway.auto.tfvars
+.terraform/

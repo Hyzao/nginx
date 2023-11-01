@@ -1,0 +1,13 @@
+---
+unix_user: ianducrot
+
+project_name: gitlab
+
+# Passords
+unix_password: "HelloThereGeneralKenobi"
+
+
+home_ip: 79.95.197.59
+
+gitlab_ip: 51.15.220.38
+

@@ -1,0 +1,10 @@
+---
+
+# Update ssh
+- hosts: server
+  user: "{%if provisioning is defined and provisioning%}{{ root_user | default('root') }}{%else%}{{ unix_user }}{%endif%}"
+  become: true
+  vars:
+    ansible_become_pass: "{{ unix_password }}"
+  roles:
+    - role: personnal-roles/setup_ssh_keys
